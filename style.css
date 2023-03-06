@@ -1,0 +1,55 @@
+:root {
+  --defPageBackgroudColor: #8d2907ff;
+  --defPanelBackgroudColor: #000000ff;
+  --defPanelDisabledBackgroudColor: #000000aa;
+  --defPanelTextColor: #f5f5f5ff;
+  --defTransparent: #00000000;
+  --defInputBackgroudColor: #ffffffaa;
+}
+
+* {
+  background-color: var(--defPageBackgroudColor);
+}
+/*Panels*/
+.panel {
+  border-radius: 20px;
+  font-family: sans-serif;
+  font-size: medium;
+  color: var(--defPanelTextColor);
+  padding: 15px;
+  background-color: var(--defPanelBackgroudColor);
+}
+
+/*Texts and Images*/
+.nadpis {
+  padding-left: 3%;
+  display: inline-block;
+  text-align: left;
+  background: fixed;
+}
+
+/*Inputs*/
+.inName {
+  background-color: var(--defInputBackgroudColor);
+  border-color: var(--defTransparent);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  width: 3cm;
+  text-align: center;
+  accent-color: var(--defPageBackgroudColor);
+}
+.inAge {
+  background-color: var(--defInputBackgroudColor);
+  border-color: var(--defTransparent);
+  width: 3cm;
+  text-align: center;
+  accent-color: var(--defPageBackgroudColor);
+}
+.inBtn {
+  background-color: var(--defInputBackgroudColor);
+  border-color: var(--defTransparent);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  text-align: center;
+  accent-color: var(--defPageBackgroudColor);
+}

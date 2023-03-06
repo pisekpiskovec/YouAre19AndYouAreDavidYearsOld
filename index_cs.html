@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="style.css" />
+
+<head>
+  <title>My Best Creation</title>
+</head>
+
+<body class="panel">
+  <input class="inName" id="inName" placeholder="Zadejte své jméno" type="text">
+  <input class="inAge" id="inAge" placeholder="Zadejte svůj věk" type="number">
+  <input class="inBtn" type="submit" value="Pokračovat" onclick="resultText()">
+</body>
+<div id="result" class="nadpis">Tvé jméno je ... a jsi ... let starý/stará.</div>
+<script type="text/javascript">
+    function resultText() {
+        document.getElementById("result").innerHTML = `Tvé jméno je ${document.getElementById("inAge").value} a jsi ${document.getElementById("inName").value} let starý/stará.`
+    }
+</script>
+
+</html>
